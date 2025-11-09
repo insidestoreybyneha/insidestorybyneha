@@ -1,0 +1,8 @@
+cd path/to/insidestory
+git init
+# put index.html, css, assets in this folder
+git add .
+git commit -m "Add site files"
+git remote add origin https://github.com/insidestoreybyneha/insidestorybyneha.git
+git branch -M main
+git push -u origin main
